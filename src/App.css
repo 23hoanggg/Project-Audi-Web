@@ -1,0 +1,632 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* -----------ĐÂY LÀ CSS CHO MÀN HÌNH CHÍNH BACK 1 ---------------*/
+.background-container {
+  background-image: linear-gradient(rgba(0, 0, 0, 0) 50%, rgb(0, 0, 0) 100%), url('../public/image/back2.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  height: 900px;
+}
+
+.content-back1 {
+  position: absolute;
+  bottom: 5%;
+  left: 8%;
+}
+
+.button-white {
+  background-color: white;
+  color: black;
+  padding: 2% 8%;
+  width: auto;
+  border: none;
+  margin-bottom: 20px;
+  font-size: 23px;
+}
+
+.title-infor {
+  font-family: 'Raleway', sans-serif;
+  font-size: 4em;
+}
+
+.button-white:hover {
+  background-color: gray;
+}
+
+/* -------------------- HẾT CSS CHO BACK1 --------------*/
+/*==================== ĐÂY LÀ CSS CHO NAVBAR============*/
+/* .Hidden-Customer {
+  position: absolute;
+  align-items: center;
+  top: 100%;
+  height: 100%;
+  width: 100%;
+  right: 0;
+  display: flex;
+  background-color: red;
+  margin-top: 1%;
+}
+.Hidden-AboutUs{
+  position: absolute;
+  align-items: center;
+  top: 100;
+  height: 100%;
+  width: 100%;
+  right: 0;
+  display: flex;
+  color: white;
+  background-color: gray;
+  margin-top: 1%;
+} */
+.menu-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px; 
+}
+
+.menu-item {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+/* ================= ĐÂY LÀ CSS CHO LISTCAR =============================*/
+.Box-Button-ListCars {
+  margin-top: 2%;
+  margin-left: 2%;
+}
+
+.Button-ListCars {
+  border: none;
+  background-color: white;
+  font-size: 35px;
+  font-family: 'Teko', sans-serif;
+  height: 5%;
+  width: 5%;
+}
+
+.Button-ListCars:focus {
+  border-bottom: 1px solid black;
+}
+
+.Model-Car {
+  display: inline-block;
+  margin-top: 2%;
+  margin-left: 2%;
+}
+
+.Name-ListCars {
+  display: flex;
+  justify-content: center;
+}
+
+.Link-ListCars {
+  text-decoration: none;
+  font-size: 25px;
+  color: black;
+}
+
+.Link-ListCars:hover {
+  cursor: pointer;
+}
+
+.Image-ListCars:hover .Link-ListCars {
+  text-decoration: underline;
+}
+
+.Image-ListCars {
+  transition: transform 0.3s;
+  height: 100%;
+  width: 100%;
+}
+
+.Image-ListCars:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+/* ================ HẾT CSS CHO lISTCARS =====================*/
+
+/* ================ ĐÂY LÀ CSS CHO DESCRIPTION CARS ================*/
+.car-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.Big-Container {
+  margin: 8%;
+}
+
+.Image-car {
+  width: 100%;
+  height: 100%;
+}
+
+.Des-Image {
+  height: 100%;
+  width: 80%;
+  margin-left: 5%;
+}
+
+@media (max-width: 70em) {
+  .car-container {
+    grid-template-columns: 1fr;
+    /* Chỉ một cột khi màn hình nhỏ hơn */
+  }
+
+  .Container-description {
+    grid-row: 2;
+    /* Di chuyển cột phải xuống dưới */
+  }
+}
+
+.Container-description {
+  display: flex;
+  align-items: center;
+}
+
+.Box-DescriptionCars {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.Name-Car {
+  font-size: 60px;
+  padding-right: 5%;
+  font-family: 'Inconsolata', monospace;
+}
+
+.Des-car {
+  font-size: 18px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.container-button {
+  display: inline-flex;
+  margin-top: 5%;
+}
+
+.B-Discover {
+  color: white;
+  padding: 1rem 4rem;
+  background-color: black;
+  border: 1px black solid;
+  font-size: 23px;
+}
+
+.B-Discover:hover {
+  background-color: gray;
+  border: 1px gray solid;
+}
+
+.B-Book {
+  color: black;
+  padding: 1rem 4rem;
+  background-color: white;
+  border: 1px black solid;
+  font-size: 23px;
+  margin-left: 1%;
+}
+
+.B-Book:hover {
+  color: gray;
+}
+
+/* ================= ĐÂY LÀ KẾT THÚC CSS CHO DESCRIPTIONCARS================ */
+
+/* ================= ĐÂY LÀ CSS CHO OUTSTANDINGCARS =====================*/
+.Background-Outstanding {
+  background-image: url('../public/image/Big-AudiA8L.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 110rem;
+  position: relative;
+}
+
+.Container-Content-Outstading {
+  background-color: white;
+  position: absolute;
+  left: 4%;
+  top: 7%;
+  padding: 2% 4%;
+  display: flex;
+  flex-direction: column;
+  top: 7%;
+  width: 40%;
+}
+
+.Background-Outstanding:hover .Container-Content-Outstading {
+  position: sticky;
+}
+
+.Outstanding-Name {
+  font-size: 50px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.Outstanding-Des {
+  color: rgb(51, 51, 51);
+  font-size: 22px;
+  word-wrap: break-word;
+  font-family: 'Raleway', sans-serif;
+}
+
+/* .Container-Button-Outstanding{
+  display: inline-flex;
+} */
+
+.Discover-Button-Outstanding {
+  padding: 2% 8%;
+  font-size: 20px;
+  background-color: black;
+  color: white;
+}
+
+.Book-Button-Outstanding {
+  padding: 2% 8%;
+  font-size: 20px;
+  background-color: white;
+  margin-left: 1%;
+}
+
+/* ================ ĐÂY LÀ CSS CHO FINDOUTMORE ==================*/
+.Head-Title-FindOut {
+  margin-top: 8%;
+  margin-left: 2%;
+}
+
+.Container-FindOut {
+  display: inline-block;
+  margin-top: 2%;
+}
+
+.Box-FindOut {
+  margin: 4%;
+}
+
+.Title-FindOut {
+  font-size: 25px;
+}
+
+.Option-FindOut {
+  font-size: 22px;
+  text-align: center;
+}
+
+.Image-FindOut {
+  height: 100%;
+  width: 100%;
+}
+
+.Image-FindOut,
+.Option-FindOut,
+.Title-FindOut {
+  cursor: pointer;
+}
+
+/* ======================= HẾT CSS CHO FIND OUT MORE ================== */
+/* ======================= ĐÂY LÀ CSS CHO FOOTER ====================== */
+.Container-Footer {
+  padding-top: 1%;
+  color: white;
+  background-color: black;
+  height: 100%;
+  width: 100%;
+  padding-bottom: 3%;
+  margin-top: 3%;
+}
+
+.Box-Footer {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.List-Footer {
+  display: flex;
+  width: 100%;
+  margin-top: 1%;
+  height: 100%;
+}
+
+.Content-Feature {
+  display: flex;
+  flex-direction: column;
+}
+
+.Container-Icon {
+  display: flex;
+  justify-content: space-between;
+}
+
+.List-Link-Footer {
+  margin-top: 10%;
+  font-size: 16px;
+}
+
+.Title-Feature:hover {
+  cursor: pointer;
+  color: grey;
+}
+
+.List-Link-Footer:hover {
+  cursor: pointer;
+  color: grey;
+}
+
+.Container-BackToTop {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 10%;
+  margin: 0% 2%;
+}
+
+.Back-To-Top {
+  color: white;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.Back-To-Top:hover {
+  cursor: pointer;
+  color: grey;
+}
+
+.Container-Social-Media {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  margin-top: 3%;
+
+}
+
+.Box-Social-Media {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+}
+
+.Social-Media {
+  font-size: 16px;
+}
+
+.Social-Media:hover {
+  cursor: pointer;
+  color: grey;
+}
+
+/*============================ HẾT CSS CHO FOOTER ====================*/
+/*============================ ĐÂY LÀ CSS CHO ALL MODELS==============*/
+.All-Models {
+  position: relative;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
+.Contaiter-All-Models {
+  width: 100%;
+  height: 100%;
+}
+
+.View-all-models {
+  margin-bottom: 2%;
+}
+
+.Box-All-Models {
+  display: flex;
+  height: 20%;
+  height: 100%;
+  margin-top: 10%;
+}
+
+.Title-All-Models {
+  display: flex;
+  width: 100%;
+  flex-direction: column !important;
+  margin-top: 5%;
+
+}
+
+.Open-Filter {
+  position: sticky;
+  background-color: black;
+  color: white;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  /* padding: 1%; */
+  top: 0;
+}
+
+.Box-Option-Filter {
+  display: flex;
+  align-items: center;
+  margin-top: 10;
+  font-family: 'Raleway, sans-serif';
+  width: 40%;
+  justify-content: space-around;
+}
+.Button-Filter{
+  background-color: black;
+  font-size: 40px;
+  color: white;
+  border: none;
+  height: 100%;
+}
+.Option-Filter {
+  background-color: black;
+  border: none;
+  color: white;
+  font-size: 30px;
+  height: 100%;
+}
+.Option-Filter:hover{
+  color: gray;
+}
+/* .Option-Filter:focus{
+  color: gray;
+} */
+
+@media (max-width: 70em) {
+  .Left-All-Models {
+    grid-template-columns: 1fr;
+  }
+
+  .Right-All-Models {
+    grid-row: 2;
+  }
+}
+
+.Left-All-Models,
+.Right-All-Models {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+/*==================== HẾT CSS CHO ALL MODELS ================*/
+/*==================== ĐÂY LÀ CSS CHO INFORETRONGT ===============*/
+.Box-Overview {
+  display: flex;
+  justify-content: space-between;
+  margin: 2%;
+  align-items: center;
+  z-index: 1;
+}
+
+.Span-Overview {
+  font-size: 23px;
+}
+
+.Catalog-Dimensions {
+  display: flex;
+  justify-content: space-around;
+  width: 15%;
+}
+
+.Background-Infor {
+  background-image: url('../public/img-EtronGT/background-Etron.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 900px;
+  color: white;
+}
+
+.B-Test {
+  background-color: white;
+  border: 1px solid white;
+  padding: 3% 7%;
+  margin-right: 5%;
+  font-size: 25px;
+  width: 100%;
+  white-space: nowrap;
+}
+
+.B-Test:hover {
+  cursor: pointer;
+  background-color: gray;
+  border: gray 1px solid;
+}
+
+.B-Dealership {
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid #fff;
+  color: #fff;
+  padding: 3% 7%;
+  margin-right: 5%;
+  font-size: 25px;
+  width: 100%;
+  white-space: nowrap;
+}
+
+.B-Dealership:hover {
+  cursor: pointer;
+  color: rgb(210, 203, 203);
+  border: 1px solid gray;
+}
+
+.Box-Highlight {
+  display: flex;
+  /* justify-content: space-around; */
+  background-color: black;
+  margin-bottom: 5%;
+  /* color: white; */
+  /* padding: 2%; */
+  width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.Menu-Highlight {
+  color: white;
+  text-decoration: none;
+  padding: 1% 0%;
+  font-size: 23px;
+  cursor: pointer;
+  margin-left: 5%;
+}
+
+.hidden-etronGT {
+  background-image: url('../public/img-EtronGT/hidden-etronGT.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  height: 100rem;
+}
+
+/* ======================== ĐÂY LÀ CSS CHO HIGHLIGHT ETRONGT ============*/
+.Box-Highlight-Audi {
+  display: flex;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  justify-content: space-around;
+}
+
+.Highlight-Audi {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Container-Connectivity {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: auto;
+  /* Sử dụng chiều cao tự động */
+  gap: 16px;
+  /* Khoảng cách giữa các ô */
+}
+
+.Box-Connectivity {
+  padding: 16px;
+}
+
+
+
+
+/*================== ĐÂY LÀ CSS CHO NEW & EVENTS =================*/
+.Background-Events {
+  background-image: url('../public/img-Events/New&Events.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  height: 600px;
+}

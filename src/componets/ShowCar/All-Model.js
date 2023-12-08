@@ -17,8 +17,13 @@ export default function AllModel() {
     ]);
     const [dropDown, setDropdown] = useState(false);
     const [filteredModels, setFilteredModels] = useState([]);
+    const [buttonText, setButtonText] = useState("Open Filter");
     const toggleDropdown = () => {
+        if (dropDown) {
+            setFilteredModels([]);
+        }
         setDropdown(!dropDown);
+        setButtonText(dropDown ? "Open Filter" : "Close Filter");
         console.log('an va hien dropdown');
     }
     const filterModels = (modelType) => {
@@ -38,8 +43,8 @@ export default function AllModel() {
                 </div>
             </div>
             <div className="Open-Filter">
-                <button onClick={toggleDropdown} className="Button-Filter">
-                    Open Filter
+            <button onClick={toggleDropdown} className="Button-Filter">
+                    {buttonText}
                 </button>
                 {dropDown && (
                     <div className="Box-Option-Filter">

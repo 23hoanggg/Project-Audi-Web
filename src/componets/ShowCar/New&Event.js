@@ -86,7 +86,7 @@ export default function EventCar() {
                                 <p className='Des-car'>{event.desEvent}</p>
                                 <div>
                             <span className="Option-FindOut">{event.OptionEvent}
-                                <svg width="24" height="24" viewBox="0 0 15 15"
+                                <svg width="20" height="20" viewBox="0 0 15 15"
                                     xmlns="http://www.w3.org/2000/svg">
                                     <path fill="currentColor"
                                         d="M8.293 2.293a1 1 0 0 1 1.414 0l4.5 4.5a1 1 0 0 1 0 1.414l-4.5 4.5a1 1 0 0 1

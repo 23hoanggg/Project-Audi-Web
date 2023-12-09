@@ -32,8 +32,8 @@ export default function DescriptionCars() {
     return (
         <div style={{marginTop:'10%'}}>
             <div>
-                <h1 style={{ fontFamily: 'Dancing Script, cursive',fontSize:65,marginBottom:'3%' }}>Exterior design</h1>
-                <h3 style={{textAlign: 'center', display: 'block', margin: '5%' }}>Ideas become the future The proportions of a gran turismo – flat and wide with a long wheelbase – make it clear that this is where sportiness meets everyday usability. The sculptural design of the body epitomises power and performance.</h3>
+                <h1 style={{ fontFamily: 'Dancing Script, cursive',fontSize:50,marginBottom:'3%' }}>Exterior design</h1>
+                <h4 style={{textAlign: 'center', display: 'block', margin: '5%' }}>Ideas become the future The proportions of a gran turismo – flat and wide with a long wheelbase – make it clear that this is where sportiness meets everyday usability. The sculptural design of the body epitomises power and performance.</h4>
             </div>
             {cars.map((car) => (
                 <div className='Big-Container'>

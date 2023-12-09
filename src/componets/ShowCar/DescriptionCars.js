@@ -39,7 +39,7 @@ export default function DescriptionCars() {
                                 <p className='Des-car'>{car.desCar}</p>
                                 <div className='container-button'>
                                     <button className='B-Discover'>Discover Now</button>
-                                    <button className='B-Book'>Book a test</button>
+                                    <button className='B-Book'>Book a test driver</button>
                                 </div>
                             </div>
                         </div>

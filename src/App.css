@@ -10,7 +10,7 @@
   background-position: center;
   background-repeat: no-repeat;
   color: white;
-  height: 900px;
+  min-height: 700px;
 }
 
 .content-back1 {
@@ -22,16 +22,16 @@
 .button-white {
   background-color: white;
   color: black;
-  padding: 2% 8%;
+  padding: 2% 5%;
   width: auto;
   border: none;
   margin-bottom: 20px;
-  font-size: 23px;
+  font-size: 18px;
 }
 
 .title-infor {
   font-family: 'Raleway', sans-serif;
-  font-size: 4em;
+  font-size: 3em;
 }
 
 .button-white:hover {
@@ -83,7 +83,7 @@
 .Button-ListCars {
   border: none;
   background-color: white;
-  font-size: 35px;
+  font-size: 25px;
   font-family: 'Teko', sans-serif;
   height: 5%;
   width: 5%;
@@ -96,7 +96,7 @@
 .Model-Car {
   display: inline-block;
   margin-top: 2%;
-  margin-left: 2%;
+  margin-left: 1%;
 }
 
 .Name-ListCars {
@@ -106,7 +106,7 @@
 
 .Link-ListCars {
   text-decoration: none;
-  font-size: 25px;
+  font-size: 20px;
   color: black;
 }
 
@@ -177,13 +177,13 @@
 }
 
 .Name-Car {
-  font-size: 60px;
+  font-size: 50px;
   padding-right: 5%;
   font-family: 'Inconsolata', monospace;
 }
 
 .Des-car {
-  font-size: 18px;
+  font-size: 15px;
   font-family: 'Raleway', sans-serif;
 }
 
@@ -194,10 +194,10 @@
 
 .B-Discover {
   color: white;
-  padding: 1rem 4rem;
+  padding: 1rem 3rem;
   background-color: black;
   border: 1px black solid;
-  font-size: 23px;
+  font-size: 18px;
 }
 
 .B-Discover:hover {
@@ -207,10 +207,10 @@
 
 .B-Book {
   color: black;
-  padding: 1rem 4rem;
+  padding: 1rem 3rem;
   background-color: white;
   border: 1px black solid;
-  font-size: 23px;
+  font-size: 18px;
   margin-left: 1%;
 }
 
@@ -226,7 +226,7 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 110rem;
+  min-height: 90rem;
   position: relative;
 }
 
@@ -247,13 +247,13 @@
 }
 
 .Outstanding-Name {
-  font-size: 50px;
+  font-size: 35px;
   font-family: 'Open Sans', sans-serif;
 }
 
 .Outstanding-Des {
   color: rgb(51, 51, 51);
-  font-size: 22px;
+  font-size: 17px;
   word-wrap: break-word;
   font-family: 'Raleway', sans-serif;
 }
@@ -283,20 +283,22 @@
 }
 
 .Container-FindOut {
-  display: inline-block;
+  display: flex;
+  justify-content: space-around;
   margin-top: 2%;
 }
 
 .Box-FindOut {
-  margin: 4%;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
 }
-
 .Title-FindOut {
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .Option-FindOut {
-  font-size: 22px;
+  font-size: 16px;
   text-align: center;
 }
 
@@ -319,8 +321,8 @@
   background-color: black;
   height: 100%;
   width: 100%;
-  padding-bottom: 3%;
-  margin-top: 3%;
+  padding-bottom: 2%;
+  margin-top: 5%;
 }
 
 .Box-Footer {
@@ -351,9 +353,12 @@
 
 .List-Link-Footer {
   margin-top: 10%;
-  font-size: 16px;
+  font-size: 13px;
 }
 
+.Title-Feature{
+  font-size: 25px;
+}
 .Title-Feature:hover {
   cursor: pointer;
   color: grey;
@@ -374,7 +379,7 @@
 
 .Back-To-Top {
   color: white;
-  font-size: 16px;
+  font-size: 13px;
   text-decoration: none;
 }
 
@@ -399,7 +404,7 @@
 }
 
 .Social-Media {
-  font-size: 16px;
+  font-size: 13px;
 }
 
 .Social-Media:hover {
@@ -460,16 +465,17 @@
 }
 .Button-Filter{
   background-color: black;
-  font-size: 40px;
+  font-size: 30px;
   color: white;
   border: none;
   height: 100%;
+  margin-left: 2%;
 }
 .Option-Filter {
   background-color: black;
   border: none;
   color: white;
-  font-size: 30px;
+  font-size: 20px;
   height: 100%;
 }
 .Option-Filter:hover{
@@ -489,17 +495,21 @@
   }
 }
 
-.Left-All-Models,
-.Right-All-Models {
+.Left-All-Models{
   width: 50%;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
 }
+.Right-All-Models{
+  display: flex;
+  flex-direction: column;
+  margin-left: 5%;
+}
 
 /*==================== HẾT CSS CHO ALL MODELS ================*/
-/*==================== ĐÂY LÀ CSS CHO INFORETRONGT ===============*/
+/*==================== ĐÂY LÀ CSS CHO INFOR-ETRONGT ===============*/
 .Box-Overview {
   display: flex;
   justify-content: space-between;
@@ -509,7 +519,7 @@
 }
 
 .Span-Overview {
-  font-size: 23px;
+  font-size: 18px;
 }
 
 .Catalog-Dimensions {
@@ -523,7 +533,7 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 900px;
+  min-height: 615px;
   color: white;
 }
 
@@ -532,7 +542,7 @@
   border: 1px solid white;
   padding: 3% 7%;
   margin-right: 5%;
-  font-size: 25px;
+  font-size: 20px;
   width: 100%;
   white-space: nowrap;
 }
@@ -549,7 +559,7 @@
   color: #fff;
   padding: 3% 7%;
   margin-right: 5%;
-  font-size: 25px;
+  font-size: 20px;
   width: 100%;
   white-space: nowrap;
 }
@@ -577,24 +587,15 @@
   color: white;
   text-decoration: none;
   padding: 1% 0%;
-  font-size: 23px;
+  font-size: 20px;
   cursor: pointer;
   margin-left: 5%;
-}
-
-.hidden-etronGT {
-  background-image: url('../public/img-EtronGT/hidden-etronGT.png');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  color: white;
-  height: 100rem;
 }
 
 /* ======================== ĐÂY LÀ CSS CHO HIGHLIGHT ETRONGT ============*/
 .Box-Highlight-Audi {
   display: flex;
-  margin-top: 2%;
+  margin-top: 5%;
   margin-bottom: 2%;
   justify-content: space-around;
 }
@@ -628,5 +629,5 @@
   background-position: center;
   background-repeat: no-repeat;
   color: white;
-  height: 600px;
+  min-height: 500px;
 }

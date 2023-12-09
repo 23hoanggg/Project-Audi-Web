@@ -39,7 +39,7 @@ export default function AllModel() {
         <div className="All-Models">
             <div className="Title-All-Models">
                 <div className="View-all-models">
-                    <span style={{ fontSize: 80, fontFamily: 'Raleway, sans-serif' }}>View all models</span>
+                    <span style={{ fontSize: 60, fontFamily: 'Raleway, sans-serif' }}>View all models</span>
                 </div>
             </div>
             <div className="Open-Filter">
@@ -62,7 +62,7 @@ export default function AllModel() {
                             <img src={process.env.PUBLIC_URL + car.imgModel} alt={`Car ${car.id}`} />
                         </div>
                         <div className="Right-All-Models" style={{ alignItems: "flex-start", alignSelf: "center" }}>
-                            <h1 style={{ fontFamily: 'Nova Square, sans-serif' }}>{car.nameModelCar}</h1>
+                            <h1 style={{ fontFamily: 'Nova Square, sans-serif',fontSize: 35 }}>{car.nameModelCar}</h1>
                             <Link to="InforEtronGT"><button className="B-Book">Information</button></Link>
                         </div>
                     </div>

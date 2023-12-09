@@ -27,12 +27,12 @@ export default function Connectivity() {
     ])
     return (
         <div style={{marginTop:'10%'}}>
-            <h1 style={{ fontFamily: 'Dancing Script, cursive',fontSize:65,marginBottom:'5%'}}>Connectivity</h1>
+            <h1 style={{ fontFamily: 'Dancing Script, cursive',fontSize:50,marginBottom:'5%'}}>Connectivity</h1>
             <div className="Container-Connectivity">
                 {connectivity.map((item) => (
                     <div key={item.id} >
                         <div className="Box-Connectivity">
-                            <h2>{item.title}</h2>
+                            <h3>{item.title}</h3>
                             <span style={{fontSize: 20}}>{item.des}</span>
                         </div>
                     </div>

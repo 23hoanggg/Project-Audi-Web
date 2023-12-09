@@ -20,7 +20,7 @@ const InfoEtronGT = () => {
     return (
         <>
             <div className="Box-Overview">
-                <span className="Span-Overview" style={{ fontSize: 30 }}>
+                <span className="Span-Overview" style={{ fontSize: 25 }}>
                     Overview
                 </span>
                 <div className="Catalog-Dimensions">

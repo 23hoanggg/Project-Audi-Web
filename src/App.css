@@ -470,6 +470,7 @@
   border: none;
   height: 100%;
   margin-left: 2%;
+  padding: 7px;
 }
 .Option-Filter {
   background-color: black;

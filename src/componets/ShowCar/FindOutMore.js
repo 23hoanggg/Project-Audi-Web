@@ -31,7 +31,6 @@ export default function FindOutMore() {
             </div>
             <div className="Container-FindOut">
                 {findOut.map((item) => (
-
                     <div key={item.id} className="Box-FindOut">
                         <div>
                             <img src={process.env.PUBLIC_URL + item.ImgFindOut}
@@ -54,7 +53,6 @@ export default function FindOutMore() {
                             </span>
                         </div>
                     </div>
-
                 ))}
             </div>
         </div>

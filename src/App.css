@@ -40,38 +40,38 @@
 
 /* -------------------- HẾT CSS CHO BACK1 --------------*/
 /*==================== ĐÂY LÀ CSS CHO NAVBAR============*/
-/* .Hidden-Customer {
+ .Hidden-Customer {
   position: absolute;
-  align-items: center;
   top: 100%;
-  height: 100%;
   width: 100%;
   right: 0;
+  z-index: 1;
+} 
+.container-customer{
+  height: 400px;
+  width: 100%;
+  background-color: white;
   display: flex;
-  background-color: red;
-  margin-top: 1%;
 }
-.Hidden-AboutUs{
-  position: absolute;
-  align-items: center;
-  top: 100;
-  height: 100%;
-  width: 100%;
-  right: 0;
-  display: flex;
-  color: white;
-  background-color: gray;
-  margin-top: 1%;
-} */
 .menu-container {
   display: grid;
+  margin-top: 2%;
+  margin-left: 10%;
   grid-template-columns: repeat(2, 1fr);
   gap: 10px; 
+  height: 30%;
+  align-items: center;
 }
-
 .menu-item {
-  border: 1px solid #ccc;
-  padding: 10px;
+  padding: 0px 40px;
+}
+.img-customer{
+  display: flex;
+  flex-direction: column;
+  height: 30%;
+  width: 30%;
+  margin-left: 10%;
+  margin-top: 2%;
 }
 
 /* ================= ĐÂY LÀ CSS CHO LISTCAR =============================*/

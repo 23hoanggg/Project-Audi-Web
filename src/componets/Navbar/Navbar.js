@@ -55,7 +55,7 @@ function NavbarPage() {
               Customer Area
               {hiddenCustomer && (
                 <div className="Hidden-Customer">
-                  {/* <CustomerArea/> */}
+                  <CustomerArea/>
                 </div>
               )}
             </Link>
@@ -65,8 +65,8 @@ function NavbarPage() {
             <Link className="nav-link" onClick={toggleHiddenAboutUs}>
               About us
               {hiddenAboutUs && (
-                <div className="Hidden-AboutUs">
-                  {/* <AboutUs/> */}
+                <div className="Hidden-Customer">
+                  <AboutUs/>
                 </div>
               )}
             </Link>

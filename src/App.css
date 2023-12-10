@@ -65,6 +65,13 @@
 .menu-item {
   padding: 0px 40px;
 }
+.item-option{
+  font-size: 18px;
+  padding: 0px 10px;
+}
+.item-option:hover{
+  color: gray;
+}
 .img-customer{
   display: flex;
   flex-direction: column;
@@ -631,4 +638,15 @@
   background-repeat: no-repeat;
   color: white;
   min-height: 500px;
+}
+
+/*================ ĐÂY LÀ CSS CHO SEARCH MODEL ====================*/
+.container-search{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.img-search{
+  border: 1px solid black;
+  height: 300px;
 }

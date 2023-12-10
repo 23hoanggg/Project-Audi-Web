@@ -15,7 +15,7 @@ export default function CustomerArea() {
                 {menuCustomer.map((item) => (
                     <div key={item.id} className="menu-item">
                         <div className="Render-Option-Navbar">
-                            <span>{item.option}</span>
+                            <span className="item-option">{item.option}</span>
                         </div>
                     </div>
                 ))}

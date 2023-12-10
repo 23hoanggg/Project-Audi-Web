@@ -44,7 +44,7 @@ export default function SearchModel() {
           <p style={{ fontFamily: 'Nova Square, sans-serif', textAlign: 'center', display: 'block', marginBottom: '5%', fontSize: 25 }}>
             Please try another search term or use the suggested quick links.
             <p style={{ textAlign: 'center', display: 'block', marginBottom: '8%', fontSize: 40 }}>You will return to the home page after 5 seconds</p>
-            {/* {handleNoResult()} */}
+            {handleNoResult()}
           </p>
         </div>
       ) : (

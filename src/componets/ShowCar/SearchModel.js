@@ -54,6 +54,8 @@ export default function SearchModel() {
             <img src={process.env.PUBLIC_URL + car.imgAudi}
               className="img-search"
               alt="Car Image" />
+            <button className="B-Book">Information</button>
+            <hr style={{width: '80%', height: 1}} />
           </div>
         ))
       )}

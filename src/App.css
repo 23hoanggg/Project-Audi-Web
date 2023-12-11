@@ -274,6 +274,11 @@
   font-size: 20px;
   background-color: black;
   color: white;
+  border: 1px solid black;
+}
+.Discover-Button-Outstanding:hover{
+  background-color: gray;
+  border: 1px solid gray;
 }
 
 .Book-Button-Outstanding {
@@ -281,6 +286,11 @@
   font-size: 20px;
   background-color: white;
   margin-left: 1%;
+  border: 1px solid black;
+}
+.Book-Button-Outstanding:hover{
+  color: gray;
+  border: 1px solid gray;
 }
 
 /* ================ ĐÂY LÀ CSS CHO FINDOUTMORE ==================*/
@@ -647,6 +657,6 @@
   flex-direction: column;
 }
 .img-search{
-  border: 1px solid black;
+  /* border: 1px solid black; */
   height: 300px;
 }
